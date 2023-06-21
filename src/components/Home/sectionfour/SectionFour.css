@@ -1,0 +1,75 @@
+.space2 {
+  margin-top: 140px;
+  margin-bottom: 50px;
+  overflow: hidden !important;
+}
+.text_trade-anything {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  color: #00d1ff;
+}
+.text_no {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  color: #fd0093;
+}
+.btn_learn_bg {
+  width: 200px;
+  height: 62px;
+  border: 1px solid #00d1ff;
+  border-radius: 2px 2px 40px 2px;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #00fff0;
+}
+.btn_buy_bg {
+  width: 222px;
+  height: 62px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  box-shadow: 1px 1px 35px 5px #000000;
+  border-radius: 2px 2px 40px 2px;
+}
+.btn_buy_icon_bg {
+  position: relative;
+  left: -8px;
+  width: 53px;
+  height: 55px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  box-shadow: 1px 1px 35px 5px #000000;
+  border-radius: 2px 0px 0px 2px;
+}
+
+@media (max-width: 1024px) {
+  .space2 {
+    margin-bottom: 20px;
+  }
+  .text_trade-anything,
+  .text_no {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text_trade-anything,
+  .text_no {
+    text-align: center;
+    font-size: 35px;
+  }
+  .btn_trade{
+    margin-left: 19px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tablet_responsive{
+    text-align: center;
+  }
+}

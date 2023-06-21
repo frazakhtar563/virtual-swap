@@ -1,0 +1,619 @@
+.W_bg {
+  background-image: url("../../../../Assets/Images/Win/W_background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.T-WDate {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.t-box {
+  width: 430px;
+  height: 36px;
+  background: #fd0093;
+  border-radius: 2px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.53em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.t-Trading {
+ 
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 50px;
+  color: #ffffff;
+}
+.t-Prizes {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.t-with {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-compete {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #01f7f7;
+}
+.s-over {
+  overflow: hidden;
+}
+.Latest-box {
+  /* width: 728px; */
+  height: 229px;
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  box-shadow: 0px 30px 104px 30px rgba(253, 0, 147, 0.48);
+  border: 1px solid #fd0093;
+  border-radius: 10px 10px
+  
+}
+.title-box {
+  position: relative;
+  top: -25px;
+  width: 283px;
+  height: 53px;
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  border: 1px solid #fd0093;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.t-check {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.t-connect-view {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 14px;
+  color: #ffffff;
+}
+.facePicture {
+  position: relative;
+  top: -60px;
+  text-align: center;
+}
+.T_bg {
+  background-image: url("../../../../Assets/Images/Win/T_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.t-1box,
+.t-2box,
+.t-3box {
+  width: 50px;
+  height: 50px;
+  background: #030029;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+.t-1box {
+  border: 1px solid #faff00;
+  box-shadow: 0px 0px 26px 2px #faff00;
+  color: #faff00;
+}
+.t-2box {
+  border: 1px solid #fd0093;
+  box-shadow: 0px 0px 26px 2px #fd0093;
+  color: #fd0093;
+}
+.t-3box {
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 0px 26px 2px #01f7f7;
+  color: #01f7f7;
+}
+.t-volume1,
+.t-volume2,
+.t-volume3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.t-volume1 {
+  color: #faff00;
+}
+.t-volume2 {
+  color: #fd0093;
+}
+.t-volume3 {
+  color: #01f7f7;
+}
+.t-volume {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.table_bg {
+  height: auto;
+  background: #030039;
+  border: 1px solid #fd0093;
+  border-radius: 20px;
+}
+.t-topTrades {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.t-since {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+.btn-groupTop {
+  width: 100%;
+  height: 64px;
+  border: none;
+  border-radius: none;
+  color: #ffffff;
+}
+.btn-TopRate {
+  width: 92px;
+  height: 64px;
+  border: none;
+  background: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+.btn-TopRate:hover {
+  width: 92px;
+  height: 64px;
+
+  background: #fd0093;
+}
+tr:nth-child(even) {
+  background: #040051;
+  height: 64px !important;
+}
+tr:nth-child(odd) {
+  background: #030039;
+  height: 64px !important;
+}
+.t-table {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  color: #ffffff;
+  text-align: center;
+}
+/* @media(max-width:1024px){
+  .Prize-box {
+    width: 110% !important
+  }
+} */
+.Prize-box {
+width:100%;
+  height: 627px;
+  background: #030039;
+  border: 1px solid #faff00;
+  box-shadow: 0px 20px 74px 10px #faff00;
+  border-radius: 20px;
+  border-right: 5px solid #faff00;
+}
+.t-prize {
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #faff00;
+}
+.t-higher {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+.btn-groupPRize {
+  height: 64px;
+}
+.btn-PrizeBy {
+  width: 92px;
+  height: 64px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background: none;
+  border: none;
+}
+.btn-PrizeBy:hover {
+  width: 92px;
+  height: 64px;
+  background: #faff00;
+  color: #000000;
+}
+.t-heading {
+  /* width: 658px; */
+  height: 64px;
+  background: #faff00 !important;
+  /* text-align: center; */
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 13px;
+  color: #020028;
+}
+
+/* .t-data {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; 
+  font-size: 14px;
+  color: #ffffff;
+} */
+/* .t-tier {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #faff00;
+} */
+.text-prizes {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.t-every {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--ul-clr);
+}
+.t-better {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.t-final {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--ul-clr);
+}
+.t-newly {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--ul-clr)
+}
+.t-a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #faff00;
+}
+.margin-team {
+  margin-left: 160px;
+}
+/*  */
+.rule-margin {
+  margin-top: 100px;
+}
+.t-rule {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+
+  text-transform: uppercase;
+
+  color: #01f7f7;
+}
+.rule-box1,
+.rule-box2,
+.rule-box3 {
+  width: auto;
+  height: auto;
+  background: #030039;
+}
+.rule-box1 {
+  border: 1px solid #01f7f7;
+  border-radius: 20px;
+  border-right: 3px solid #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+}
+.rule-box2 {
+  border: 1px solid#FD0093;
+  border-radius: 20px;
+  border-right: 3px solid #fd0093;
+  box-shadow: 0px 20px 74px 10px #fd0093;
+}
+.rule-box3 {
+  border: 1px solid #faff00;
+  border-radius: 20px;
+  border-right: 3px solid #faff00;
+  box-shadow: 0px 20px 74px 10px #faff00;
+}
+.title-box1,
+.title-box2,
+.title-box3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.title-box1 {
+  color: #01f7f7;
+}
+.title-box2 {
+  color: #fd0093;
+}
+.title-box3 {
+  color: #faff00;
+}
+.detail-box1 {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 14px;
+  color: #ffffff;
+}
+.Rule_table_bg {
+  margin-top: 130px;
+  width: 585px;
+  height: 599px;
+  background: #030039;
+  border: 1px solid #01f7f7;
+  border-radius: 20px;
+}
+.table_detail {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.table-responsive {
+  height: 64px;
+  background: #040051;
+}
+.text-b {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #01f7f7;
+}
+.text-a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@media (max-width: 320px) {
+  .table-Top {
+    font-size: 18px;
+  }
+  .t-volume1,
+  .t-volume2,
+  .t-volume3 {
+    font-size: 14px;
+  }
+  .t-volume {
+    font-size: 12px;
+  }
+  .t-1box,
+  .t-2box,
+  .t-3box {
+    width: 25px;
+    font-size: 15px;
+    height: 25px;
+  }
+  .faceIcon {
+    width: 16px;
+  }
+  .t-box {
+    width: 300px;
+    font-size: 12px;
+    height: 24px;
+  }
+  .t-Trading {
+    font-size: 25px;
+  }
+  .t-Prizes {
+    font-size: 30px;
+    margin-top: -20px;
+  }
+  .text_amount {
+    margin-top: -20px;
+  }
+  .t-check {
+    font-size: 22px;
+  }
+  .facePicture {
+    display: none !important;
+  }
+  .t-connect-view {
+    font-size: 15px;
+  }
+  .btn_Fgird_bg {
+    margin-top: 30px;
+    margin-left: 0% !important;
+  }
+}
+@media (max-width: 375px) {
+  .table-Top {
+    font-size: 18px;
+  }
+  .facePicture {
+    display: none !important;
+  }
+  .t-box {
+    width: 350px;
+    font-size: 15px;
+    height: 24px;
+  }
+  .t-Trading {
+    font-size: 30px;
+  }
+  .t-Prizes {
+    font-size: 30px;
+    margin-top: -20px;
+  }
+  .t-check {
+    font-size: 22px;
+  }
+  .t-connect-view {
+    font-size: 15px;
+  }
+  .btn_Fgird_bg {
+    margin-top: 30px;
+    margin-left: 0% !important;
+  }
+}
+@media (max-width: 475px) {
+  .facePicture {
+    display: none !important;
+  }
+  .t-box {
+    width: 380px;
+    font-size: 16px;
+    height: 24px;
+  }
+  .t-Trading {
+    font-size: 35px;
+  }
+  .t-Prizes {
+    font-size: 30px;
+  }
+  .btn_Fgird_bg {
+    margin-top: 30px;
+    margin-left: 0% !important;
+  }
+  .table-Top {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .facePicture {
+    display: none !important;
+  }
+  .t-box {
+    width: 380px;
+    font-size: 16px;
+    height: 24px;
+  }
+  .t-Trading {
+    font-size: 25px;
+  }
+  .t-Prizes {
+    font-size: 30px;
+  }
+  .btn_Fgird_bg {
+    margin-top: 30px;
+    margin-left: 0% !important;
+  }
+  .t-check {
+    font-size: 21px;
+  }
+  .t-connect-view {
+    font-size: 15px;
+  }
+
+  .table-Top {
+    font-size: 18px;
+  }
+  .mobile-table-responsive {
+    margin-top: 20px;
+  }
+  .Rule_table_bg {
+    width: 100%;
+  }
+  /* .rule-box1,
+  .rule-box2,
+  .rule-box3 {
+    width: 100%;
+  } */
+  .margin-team {
+    margin: 0% !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .rule-box1,
+  .rule-box2,
+  .rule-box3 {
+    width: 100%;
+  }
+  .margin-team {
+    margin: 0% !important;
+  }
+}

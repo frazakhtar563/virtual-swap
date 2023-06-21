@@ -1,0 +1,367 @@
+.text_Btc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+.text_bitcon {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+.spot_border {
+  background: var(--bg-clr);
+  box-shadow: 0px 17px 34px -12px rgba(1, 247, 247, 0.72);
+  /* border: 1px solid #940056; */
+  border: 1px solid #e5e5e5 ;
+}
+.btc_border {
+  /* border-right: 1px solid #940056; */
+}
+
+.text_spot_tutorial {
+  font-family: "Poppins";
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--ul-clr);
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.border_spot_tutorial {
+  border-left: 0.5px solid #940056;
+}
+
+.spot_value {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+.text_spotPrice {
+  font-family: "Poppins";
+  font-size: 12px;
+  color: var(--ul-clr);
+}
+.text_change {
+  font-family: "Poppins";
+  font-size: 12px;
+  color: var(--ul-clr);
+}
+.text_price {
+  font-family: "Poppins";
+  font-size: 12px;
+  color: var(--ul-clr);
+}
+.text_spot_tutorial:hover {
+  color: var(--ul-clr);
+}
+.table-stick{
+  border: #04ebea solid 1px;
+  background-color: var(--bg-clr) ;
+  /* z-index: 100; */
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.list-table {
+  background: transparent !important;
+  color: var(--ul-clr);
+  font-size: 12px;
+  /* text-align: center; */
+  border-bottom: none !important ;
+}
+.table_spot {
+  height: 180px;
+  overflow-y: auto;
+}
+
+#style-3::-webkit-scrollbar-track {
+  -webkit-box-shadow:#F6F7F8;
+  background-color: transparent;
+}
+
+#style-3::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+#style-3::-webkit-scrollbar-thumb {
+  background-color: #E3E7EC;
+  border-radius: 10px;
+}
+@media(max-width:1366px){
+  .btn-spot-time {
+    font-size: 12px;
+    font-family: " poppins";
+    background: transparent !important;
+    border: none !important;
+    padding: 9px;
+    color: var(--ul-clr);
+  }
+}
+.btn-spot-time {
+  padding: 9px;
+}
+
+.btn-spot-time:hover {
+  color: #04ebea;
+  border: none !important;
+  background: none !important;
+}
+/*
+   *  STYLE 4
+   */
+
+.btn-open-order {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: var(--ul-clr);
+  border: none !important;
+}
+.btn-open-order:hover {
+  background: transparent !important;
+  color: #04ebea;
+  border: none !important;
+}
+
+.text_login {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: var(--ul-clr);
+  border: none !important;
+}
+
+.spot_input {
+  box-shadow: none !important;
+  width: 100%;
+  height: 37px !important;
+}
+
+.btn_spotLogin {
+  width: 100%;
+  height: 50px;
+
+  border: #160d27 1px solid;
+  font-size: 15px !important;
+}
+
+.text_avlb {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: var(--ul-clr);
+  color: #25B02B;
+}
+
+#form1 {
+  width: 100%;
+  height: 40px;
+  background: var(--bg-clr);
+  color: -var(--ul-clr);
+  border: #160d27 1px solid;
+  border-radius: 2px;
+}
+
+.nav-profile-tab {
+  font-size: 12px !important;
+  font-family: "Poppins", sans-serif;
+  color: var(--ul-clr) !important;
+  background: transparent !important;
+}
+.nav-profile-tab:hover {
+  background: transparent !important;
+  color: #04ebea;
+  border: none !important;
+}
+.chart-bg {
+  background-color: var(--bg-clr) !important;
+}
+.form-control2{
+  height: 37px !important;
+}
+#timeline text {
+  fill: #dddada;
+}
+.input-group-text{
+  height: 37px !important;
+}
+.btn_order {
+  color: var(--ul-clr);
+  font-size: 15px;
+  height: auto;
+  background: transparent;
+  border: #04ebea 1px solid;
+}
+
+@media (max-width: 768px) {
+  .spot_mobile {
+    display: none;
+  }
+  .spot_value_mbolie {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+@media (max-width: 425px) {
+  .border_spot_tutorial {
+    border-left: none;
+  }
+  .btc_border {
+    border-right: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.table_spot tr:nth-child(even),
+tr:nth-child(odd) {
+  border-bottom: none;
+  height: 0% !important;
+}
+.btn_order {
+  border: 1px #04ebea solid;
+  color: #04ebea;
+}
+.btn_link {
+  color: var(--ul-clr);
+  border: none;
+  background: transparent;
+}
+.list-pair {
+  background-color: transparent !important;
+  color: var(--ul-clr);
+  font-size: 12px;
+  width: 100%;
+  text-align: start;
+}
+.new_txt{
+  color: var(--ul-clr) !important;
+}
+.text-MarketActivites {
+  font-size: 18px;
+  font-family: "poppins";
+  font-weight: bold;
+  color: var(--ul-clr);
+}
+.spot-icon {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  /* background-color: rgb(24, 52, 46); */
+  border-radius: 5px;
+  /* color: green; */
+  font-size: 15px;
+}
+.text-marketPair {
+  font-size: 12px;
+  color: var(--ul-clr);
+}
+.market_spot {
+  height: 120px;
+  overflow-y: auto;
+}
+.btn_days {
+  border: none;
+  color: #04ebea;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 12px;
+  font-family: "poppins";
+}
+.text_Time {
+  color: #04ebea;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-family: "poppins";
+}
+.btn_days:hover {
+  border: #04ebea 1px solid;
+  color: var(--ul-clr);
+  border-radius: 5px;
+  background-color: #04ebea;
+}
+/* .date_input {
+  background-color: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-family: "poppins";
+  border: #04ebea 1px solid;
+} */
+.btn_spotBuy {
+  font-size: 12px;
+  font-family: "poppins";
+  border: 1px solid green;
+  color: green;
+}
+.btn_spotBuy:hover {
+  background-color: green;
+  color: var(--ul-clr);
+}
+.btn_spotSell {
+  font-size: 12px;
+  font-family: "poppins";
+  border: 1px solid red;
+  color: red;
+}
+.btn_spotSell:hover {
+  background-color: red;
+  color: var(--ul-clr);
+}
+
+.highcharts-container {
+  height: 200px !important;
+}
+.over{
+  overflow: hidden;
+}
+.highcharts-axis-labels text,.highcharts-legend-item text{
+  color: var(--bg-clr) !important;
+  fill:var(--ul-clr) !important ;
+}
+.highcharts-title{
+  display: none !important;
+}
+.highcharts-credits{
+  display: none !important;
+}
+.highcharts-button-box{
+  fill: transparent !important;
+}
+.highcharts-axis-title{
+  color: var(--bg-clr) !important;
+  fill:var(--ul-clr) !important ;
+}
+.btn_plus{
+  width: 20px;
+  height: 10px;
+  /* background-color: #04ebea !important; */
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--ul-clr);
+  opacity: 1; /* Firefox */
+}
+.btn_list{
+  background-image: linear-gradient(90deg, rgb(81, 121, 219) 0%, rgb(180, 36, 254) 100%);
+  width: 30px;
+  height: 20px;
+  border: 0;
+  outline: none;
+  font-size: 7px;
+
+}
+.btn_list:hover{
+  /* background-color: #dddada; */
+  opacity: 0.65;
+}
+.img_pill{
+  width: 50px;
+  height: 50px;
+}

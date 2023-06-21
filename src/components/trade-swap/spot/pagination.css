@@ -1,0 +1,67 @@
+.pagination {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .page-link {
+    color: #fff;
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+  }
+
+  .page-link,
+  .page-link:focus,
+  .disabled > .page-link {
+    border: none !important;
+    border-color: none !important;
+    background-color: none !important;
+  }
+  .page-link:focus {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #000000;
+    outline: 0;
+    box-shadow: none !important;
+  }
+  .page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 5px;
+    color: #000;
+    font-weight: 500;
+  }
+  .page-item:first-child .page-link,
+  .page-item:last-child .page-link {
+    width: 35px;
+    border-radius: 50px;
+    margin: 5px;
+    color: #eccf83;
+    font-weight: 500;
+  }
+  .page-item:first-child:focus-visible .page-link {
+    color: #fff;
+    background-color: #a2a2a2;
+  }
+  .page-item .active {
+    color: #fff;
+    background-color: #eccf83;
+  }
+  .active > .page-link {
+    color: #fff;
+    background-color: #eccf83;
+    border: 1px solid #eccf83;
+    border-radius: 50px;
+  }
+  .disabled .page-link {
+    color: #000 !important  ;
+    background-color: #a2a2a2 !important;
+  }
+  .page-item .arrow {
+    color: #111111 !important;
+    background-color: #eccf83;
+  }
+  

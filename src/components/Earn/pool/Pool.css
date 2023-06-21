@@ -1,0 +1,90 @@
+.text-Syrup {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95px;
+
+  text-transform: uppercase;
+
+  color: #fd0093;
+}
+.text-Ptitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+.tableRow {
+  width: 1152px;
+  height: 44px;
+  background: #040052;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+
+  color: #ffffff;
+}
+.table-data {
+  width: 1152px;
+  height: 70px;
+
+  background: #030039;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+
+  color: #ffffff;
+}
+.Text-PDetail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+
+
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #01f7f7;
+}
+.text-vs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+
+  color: #fd0093;
+}
+
+.text-usd {
+  margin-top: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+
+
+  color: #66639e;
+}
+.respons_table{
+  width: 100%;
+  overflow-y: auto;
+}
+@media (max-width: 375px) {
+  .text-Syrup {
+    font-size: 75px;
+  }
+}
+.text_Pool_total {
+  font-size: 14px;
+  font-family: "poppins";
+  color: #fd0093;
+}

@@ -1,0 +1,255 @@
+.card_img{
+  height: 200px;
+  width: 100%;
+}
+.launchPad_bg {
+  background-image: url("../../Assets/Images/Finish_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text_virtualShip {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--ul-clr);
+}
+.text_explore_and {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 44px;
+  /* or 142% */
+
+  text-align: center;
+
+  color: var(--ul-clr);
+}
+
+/*  */
+.text_coming {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  /* identical to box height, or 70% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--ul-clr);
+}
+.launchPad_card,
+.launchPad_card2 {
+  width: 100%;
+  height: auto;
+  border-radius: 35px 20px 20px 20px;
+}
+.launchPad_card {
+  background: #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+}
+.launchPad_card2 {
+  background: #fd0093;
+  box-shadow: 0px 20px 74px 10px #fd0093;
+}
+.launchPad_innerCard,
+.launchPad_innerCard2 {
+  width: 100%;
+  height: auto;
+
+  background: #030039;
+  border-radius: 170px 20px 20px 20px;
+}
+
+.launchPad_innerCard {
+  border: 1px solid #01f7f7;
+}
+.launchPad_innerCard2 {
+  border: 1px solid #fd0093;
+}
+.pic_coming {
+  position: relative;
+  top: -20px;
+}
+.text_virtual_Moon {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.text_virtual_Moon2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #01f7f7;
+}
+.text_tba {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+.btn_coming {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* identical to box height */
+  text-transform: uppercase;
+  border: none;
+  color: var(--ul-clr);
+  width: 116px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+@media (max-width: 1024px) {
+  .launchPad_card,
+  .launchPad_card2,
+  .launchPad_innerCard,
+  .launchPad_innerCard2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .text_coming {
+    font-size: 25px;
+  }
+  .launchPad_card,
+  .launchPad_card2,
+  .launchPad_innerCard,
+  .launchPad_innerCard2 {
+    box-shadow: none;
+  }
+  .text_virtualShip {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 325px) {
+  .text_coming {
+    font-size: 25px;
+  }
+  .launchPad_card,
+  .launchPad_card2,
+  .launchPad_innerCard,
+  .launchPad_innerCard2 {
+    box-shadow: none;
+  }
+}
+
+/*  */
+.text_highlight {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  /* identical to box height, or 108% */
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+.text_ifThe {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* or 181% */
+  text-align: center;
+  color: var(--ul-clr);
+}
+.card_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/*  */
+.highlight_card {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+  .highlight_card {
+    width: 100%;
+    margin-top: 50px;
+    height: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .text_highlight {
+    font-size: 30px;
+  }
+  .funded_margin {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .funded_margin {
+    margin-top: 20px;
+  }
+}
+
+/*  */
+.text_funded {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  /* identical to box height, or 217% */
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+.text_we_bring {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* or 169% */
+
+  color: var(--ul-clr);
+}
+
+.funded_card {
+  width: 100%;
+  height: 100%;
+}
+.t_funded {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--ul-clr);
+}
+
+/* ****************************** */
+.project_table {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* identical to box height, or 219% */
+  text-transform: uppercase;
+  color: var(--ul-clr);
+  text-align: center;
+  background: none !important;
+}

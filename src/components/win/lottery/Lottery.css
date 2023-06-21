@@ -1,0 +1,945 @@
+.lottery-bg {
+  background-image: url("../../../Assets/Images/Lottery-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.LT-box {
+  width: max-content;
+  height: 45px;
+  background: #010017;
+  border: 1px solid #fd0093;
+  box-shadow: 0px 0px 12px 9px rgba(253, 0, 147, 0.67);
+  border-radius: 2px;
+  /* text-align: center; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-Lt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.t-InPrize {
+  margin: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.btn-BuyTicket {
+  width: 150px;
+  height: 50px;
+  background: #010017;
+  border: 1px solid #fd0093;
+  color: #fd0093;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  /* box-shadow: 0px 0px 12px 9px #fd0093; */
+ 
+}
+/* .bt-t-buyticket {
+  width: 221px;
+  height: 64px;
+  background: none;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fd0093;
+} */
+.LT-box2 {
+  height: auto;
+  background: #010017;
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 0px 12px 9px #01f7f7;
+  border-radius: 20px ;
+}
+.t-Get {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+.LT-time-box {
+  /* position: relative;
+  left: 66px; */
+  width: 121px;
+  height: 38px;
+  background: #01f7f7;
+  border-radius: 2px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t-LT-Date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #020028;
+}
+.t-until {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #ffffff;
+}
+.t-NextDraw {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+}
+.T-input {
+  padding: 10px;
+  height: 50px;
+  background: #010017;
+  border: 1px solid #007272;
+  border-radius: 5px;
+}
+.TDraw {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-PrizePot {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.t-Dollar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #01f7f7;
+  display: flex;
+  align-items: center;
+}
+.LT-circle,
+.LF-circle {
+  width: 78px;
+  height: 78px;
+  border-radius: 50px;
+  background: #010017;
+}
+.LT-circle,.LF-circle {
+  width: 100%;
+  height: 50px;
+  color: #01f7f7;
+  font-size: larger;
+  border-radius: 10px;
+  border: 1px solid #01f7f7;
+  /* box-shadow: 0px 0px 12px 9px #01f7f7; */
+}
+.LF-circle {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #fd0093;
+  /* box-shadow: 0px 0px 12px 9px #fd0093; */
+}
+.LT-Detail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration-line: underline;
+  color: #01f7f7;
+}
+
+/* ******************Fininshed-box */
+.Fininshed-box {
+  margin-top: 100px;
+  height: max-content;
+  background: #010017;
+  border: 1px solid #fd0093;
+  box-shadow: 0px 0px 12px 9px #fd0093;
+  border-radius: 20px ;
+}
+.tfinished {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+.finished {
+  background: #456c6c;
+  border-radius: 2px;
+}
+
+.btn-group-finished {
+  /* width: px; */
+  height: 38px;
+  background: #456c6c;
+  border-radius: 2px;
+}
+
+.btn-finish {
+  /* width: 90px; */
+  height: 38px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: none;
+  border: none;
+}
+.btn-finish:hover {
+  /* width: 106px; */
+  height: 38px;
+  background: #fd0093;
+  border-radius: 2px;
+}
+.input-finished {
+  width: 90%;
+  height: 66px;
+  background: #010017;
+  border: 1px solid #007272;
+  border-radius: 5px;
+}
+.tDrawn,
+.tRound {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.tDrawn {
+  color: #ffffff;
+}
+.tRound {
+  color: #fd0093;
+}
+.tWinning {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-latest-box {
+  width: 69px;
+  height: 20px;
+  background: #fd0093;
+  border-radius: 2px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.t-connect-your {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.Play_bg {
+  background-image: url("../../../Assets/Images/Play_bg.png");
+  width: 100%;
+  height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.t_How {
+  /* margin-top: 30px; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t_if {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+.How_card1,
+.How_card2,
+.How_card3 {
+  width: 100%;
+  height: 157px;
+  background: #030039;
+  border-radius: 20px;
+}
+.How_card1 {
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+}
+.How_card2 {
+  border: 1px solid #fd0093;
+  box-shadow: 0px 20px 74px 10px #fd0093;
+}
+.How_card3 {
+  border: 1px solid #faff00;
+  box-shadow: 0px 20px 74px 10px #faff00;
+}
+.how_circle1,
+.how_circle2,
+.how_circle3 {
+  width: 38px;
+  height: 38px;
+  background: #010017;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 20px;
+  top: -15px;
+}
+.how_circle1 {
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 0px 12px 3px rgba(1, 247, 247, 0.56);
+}
+.how_circle2 {
+  border: 1px solid #fd0093;
+  box-shadow: 0px 0px 12px 3px #fd0093;
+}
+.how_circle3 {
+  border: 1px solid #faff00;
+  box-shadow: 0px 0px 12px 3px #faff00;
+}
+
+.thow_circle1,
+.thow_circle2,
+.thow_circle3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+.thow_circle1 {
+  color: #01f7f7;
+}
+.thow_circle2 {
+  color: #fd0093;
+}
+.thow_circle3 {
+  color: #faff00;
+}
+.thow_buy,
+.thow_play,
+.thow_everyone {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.thow_buy {
+  color: #01f7f7;
+}
+.thow_play {
+  color: #fd0093;
+}
+.thow_everyone {
+  color: #faff00;
+}
+.thow_priceAre {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+.win_margin {
+  margin-top: 150px !important;
+}
+.twining_criteria {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #faff00;
+}
+.t-thedigits {
+  margin: 0% !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+.there_an {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff;
+}
+.wining-box {
+  width:450px;
+  height: 431px;
+  background: #010017;
+  border: 1px solid #faff00;
+  box-shadow: 0px 0px 12px 9px #faff00;
+  border-radius: 20px 20px ;
+}
+.wining-circle {
+  /* position: relative;
+  right: 35px; */
+  width: 40px;
+  height: 40px;
+  background: #010017;
+  border: 1px solid #faff00;
+  box-shadow: 0px 0px 12px 3px #faff00;
+  border-radius: 50%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #faff00;
+}
+.t1-pink,
+.t1-yellow,
+.t1-blue {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+.t1-blue {
+  color: #01f7f7;
+}
+.t1-yellow {
+  color: #faff00;
+}
+.t1-pink {
+  color: #fd0093;
+}
+
+/* ******************************************************************************************************* */
+.PrizeFund-box {
+  width: 431px;
+  height: 413px;
+  background: #010017;
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 0px 12px 9px #01f7f7;
+  border-radius: 20px 20px 117px 20px;
+}
+.tDigits {
+  width: 180px;
+  height: 33px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.tmatches {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  /* or 215% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.blue-col {
+  font-weight: bolder !important;
+  color: #01f7f7;
+}
+.pink-col {
+  font-weight: bolder !important;
+  color: #fd0093;
+}
+.yellow-col {
+  font-weight: bolder !important;
+  color: #faff00;
+}
+.t-prizes-fund {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.t-thePrize {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.t-ticket {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #01f7f7;
+}
+.t-here-an {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.t-Rollover {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fd0093;
+}
+.t-cake {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #faff00;
+}
+.still-margin {
+  margin-top: 150px;
+}
+.Still_bg {
+  background-image: url("../../../Assets/Images/Lottery-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  box-shadow: 0px 0px 34px 0px #01f7f7;
+  border-radius: 5px;
+}
+.t-still {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-check-our {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-how-play {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-vritual {
+  color: #faff00;
+}
+.last-picture {
+  position: relative;
+  top: -100px;
+}
+
+@media (max-width: 325px) {
+  .LT-box {
+    width: auto !important;
+    font-size: 13px;
+    height: 35px;
+    text-align: center;
+  }
+  .t-Lt {
+    font-size: 50px;
+  }
+  .t-InPrize {
+    margin-top: -10px;
+    font-size: 20px;
+  }
+  .btn-BuyTicket {
+    margin-top: 20px;
+  }
+  .LT-box2 {
+    margin-top: 50px;
+  }
+  .t-Get {
+    font-size: 22px;
+  }
+  .t-until {
+    margin-right: 80px;
+    margin-top: 10px;
+  }
+  .LT-time-box {
+    margin-top: 10px;
+  }
+  .T-input {
+    height: 60px;
+  }
+  .TDraw {
+    font-size: 15px;
+    margin-top: -20px;
+  }
+  .t-PrizePot {
+    font-size: 18px;
+  }
+  .t-Dollar {
+    font-size: 18px;
+  }
+  .LT-circle,
+  .LF-circle {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  .LT-Detail {
+    font-size: 12px;
+  }
+  .t-connect-your {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .tfinished {
+    text-align: center;
+  }
+  .btn-group-finished {
+    margin-right: 42px;
+  }
+  .tDrawn {
+    font-size: 15px;
+  }
+  .input-finished {
+    width: 290px;
+  }
+  .tWinning {
+    font-size: 15px;
+  }
+}
+@media (max-width: 375px) {
+  .LT-box {
+    width: auto;
+    font-size: 13px;
+    height: 35px;
+    text-align: center;
+  }
+  .t-Lt {
+    font-size: 50px;
+  }
+  .t-InPrize {
+    margin-top: -10px;
+    font-size: 20px;
+  }
+  .btn-BuyTicket {
+    margin-top: 20px;
+  }
+  .LT-box2 {
+    margin-top: 50px;
+  }
+ 
+  .t-until {
+    margin-right: 80px;
+    margin-top: 10px;
+  }
+  .LT-time-box {
+    margin-top: 10px;
+  }
+  .T-input {
+    height: 60px;
+  }
+  .TDraw {
+    font-size: 15px;
+    /* margin-top: -20px; */
+  }
+  .t-PrizePot {
+    font-size: 18px;
+  }
+  .t-Dollar {
+    font-size: 18px;
+  }
+ 
+  .LT-Detail {
+    font-size: 12px;
+  }
+  .tfinished {
+    text-align: center;
+  }
+}
+
+/* ******************************************Lottery*********************************************** */
+@media (max-width: 1024px) {
+  .win_margin {
+    margin-top: 300px !important;
+  }
+  .TDraw,
+  .t-Get {
+    font-size: 13px;
+  }
+ 
+  .t-thedigits,
+  .there_an {
+    font-size: 12px;
+  }
+  .wining-box {
+    width: 419px;
+  }
+  .How_card1,
+  .How_card2,
+  .How_card3 {
+    margin-top: 20px;
+  }
+  /* .LT-time-box {
+    left: 23px;
+  } */
+  /* .t-until {
+    margin-left: 50px;
+  } */
+  .t_if {
+    font-size: 12px;
+  }
+
+  .t-connect-your {
+    font-size: 40px;
+    text-align: center;
+  }
+  .tfinished {
+    font-size: 20px;
+  }
+  .btn-finish {
+    /* width: 95px; */
+    font-size: 10px;
+  }
+  .btn-finish:hover {
+    width: 95px;
+  }
+}
+@media(max-width:500px){
+  .LT-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .t-Lt, .t-InPrize{
+    text-align: center;
+  }
+  .t-connect-your{
+    margin-top: 20px;
+  }
+  .button_connect_responsive{
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .LT-box2{
+    height: max-content;
+    margin-top: 20px;
+    /* left: 0% !important; */
+  }
+  .button_responsive{
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+  }
+}
+/* 
+@media (max-width: 768px) {
+  .last-picture {
+    display: none;
+  }
+  .t-still,
+  .t-check-our,
+  .t-how-play {
+    text-align: center;
+  }
+  .t-prizes-fund {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .win_margin {
+    margin-top: 600px !important;
+  }
+  .How_card1,
+  .How_card2,
+  .How_card3 {
+    width: 100%;
+  }
+  .TDraw,
+  .t-Get {
+    font-size: 14px;
+  }
+  .twining_criteria {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  .LT-time-box {
+    left: 30px;
+    width: 100px;
+    height: 30px;
+    background: #01f7f7;
+    border-radius: 2px;
+  }
+  .t-until {
+    margin-left: 50px;
+  }
+  .t-until {
+    font-size: 10px;
+  }
+  .LT-box {
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+  }
+  .t-Lt {
+    font-size: 70px;
+  }
+  .tDrawn,
+  .tRound {
+    font-size: 15px;
+  }
+  .btn-finish {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+  }
+  .btn-finish:hover {
+    width: 100%;
+    height: 100%;
+  }
+  .tfinished {
+    font-size: 15px;
+  }
+} */
+
+/* @media (max-width: 425px) {
+  .tmatches {
+    font-size: 12px;
+    margin: 10px;
+  }
+  .wining-box {
+    width: 350px;
+    height: 500px;
+  }
+  .tDigits {
+    width: auto;
+  }
+  .LT-box2 {
+    margin-top: 50px;
+  }
+  .t_How {
+    font-size: 30px;
+  }
+  .t-Get {
+    text-align: center;
+  }
+  .LT-time-box {
+    left: 133px;
+    margin-top: 10px;
+  }
+  .t-until {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .btn-BuyTicket {
+    margin-top: 15px;
+  }
+
+  .btn-group-finished {
+    width: 100%;
+  }
+  .t-connect-your {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  .t-still {
+    font-size: 35px;
+  }
+  .wining-box {
+    width: 280px;
+    height: 500px;
+  }
+  .circleA {
+    width: 30px !important;
+  }
+}
+@media (max-width: 320px) {
+  .LT-time-box {
+    left: 90px;
+    margin-top: 10px;
+  }
+  .LT-box {
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+  }
+  .t-Lt {
+    font-size: 50px;
+  }
+  .t-until {
+    margin-top: 10px;
+    margin-left: 99px;
+  }
+  .tmatches {
+    font-size: 10px;
+    margin: 10px;
+  }
+  .t-prizes-fund {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+  }
+  .TDraw {
+    margin-top: 1px;
+  }
+  .btn-group-finished {
+    width: 100%;
+    margin-left: 30px;
+  }
+  .wining-circle {
+    position: relative;
+    right: 24px;
+    width: 53px;
+    height: 53px;
+  }
+} */

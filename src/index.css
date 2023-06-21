@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+ 
+/* Handle */
+
+
+/* Handle on hover */
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-size: 30px !important;
+}
+h2{
+  font-size: 20px !important;
+}
+h3{
+  font-size: 15px !important;
+}
+p{
+  font-size: 15px !important;
+}
+h5{
+  color: var(--ul-clr);
+}

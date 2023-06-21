@@ -1,0 +1,111 @@
+.leadBoard_bg {
+  background-image: url("../../Assets/Images/Finish_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.text_teams {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.text_showOff {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ************************************************* */
+.text_heading_teams {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.team_card {
+  margin-top: 70px;
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+.teams_title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.teams_paragraph {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.link_teams_see {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration-line: underline;
+  color: #01f7f7;
+}
+
+@media (max-width: 768px) {
+  .team_card {
+    height: auto;
+  }
+}
+
+.teams_list {
+  list-style: none;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: -28px;
+}
+
+.team_circle {
+  position: relative;
+  z-index: 100;
+  margin-top: -20px;
+  float: right;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background: #010017;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+}
+.team_picture {
+  background: url("../../Assets/Images/team_card.png");
+  height: 88%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+@media (max-width: 1024px) {
+  .team_picture {
+    margin-left: -1px;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .team_picture {
+    display: none;
+  }
+}

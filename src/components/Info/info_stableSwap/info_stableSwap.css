@@ -1,0 +1,21 @@
+.btn-modified:hover {
+  width: 118px;
+  height: 40px;
+  background: #fd0093;
+  border-radius: 40px;
+}
+
+@media (max-width: 425px) {
+  .info-stable-responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .btn-modified {
+    width: 100%;
+  }
+  .btn-nft-responsive {
+    display: flex;
+    justify-content: center !important;
+  }
+}

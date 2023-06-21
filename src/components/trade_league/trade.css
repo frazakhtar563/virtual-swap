@@ -1,0 +1,411 @@
+.trade_bg {
+  background-image: url("../../Assets/Images/trade_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.t-trate-virtual {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #faff00;
+}
+.t-tradeleague {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-trade-explore {
+  margin-top: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-trade-buy {
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  width: 160px;
+  height: 44px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+}
+.btn-trade-view {
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #01f7f7;
+  width: 160px;
+  height: 44px;
+  background: #020028;
+  border: 1px solid #00fff0;
+  border-radius: 2px 2px 40px 2px;
+}
+@media (max-width: 768px) {
+  .t-trate-virtual {
+    font-size: 20px;
+  }
+  .t-tradeleague {
+    font-size: 60px;
+  }
+}
+@media (max-width: 425px) {
+  .t-trate-virtual {
+    font-size: 15px;
+  }
+  .t-tradeleague {
+    font-size: 30px;
+  }
+  .t-trade-explore {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .btn-trade-buy,
+  .btn-trade-view {
+    font-size: 10px;
+    width: 130px;
+  }
+}
+/* *********************************Trade_bar********************************** */
+.bar-bg {
+  overflow: hidden;
+  height: 70px;
+  background: #030039;
+  box-shadow: 0px 13px 19px 1px rgba(250, 255, 0, 0.4);
+}
+.t-trade-league {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+@media (max-width: 425px) {
+  .t-trade-league {
+    margin-top: -10px;
+    font-size: 12px;
+  }
+}
+
+/* *****************************************************LeaderBoard***************************************************** */
+.t-trade-leader {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  /* identical to box height, or 39% */
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.t-trade-top {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 21px;
+  /* identical to box height, or 167% */
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.t-trade-last {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  /* identical to box height, or 167% */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.trade-input {
+  width: 252px;
+  height: 42px;
+  border: none;
+  background: #a50462;
+  border-radius: 70px;
+}
+::placeholder {
+  margin-left: 5px;
+  color: white;
+}
+/* .table_over{
+    overflow: auto;
+    overflow-x: scroll;
+} */
+.t-trade-draw {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  /* identical to box height, or 233% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.trade-table-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+.data-trade-table {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height */
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .t-trade-leader {
+    font-size: 45px;
+  }
+}
+@media (max-width: 425px) {
+  .t-trade-draw {
+    font-size: 12px;
+    text-align: center !important;
+  }
+  .input-responsive {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* .table_over{
+        overflow: auto;
+        overflow-x: scroll;
+    } */
+  .t-trade-leader {
+    font-size: 30px;
+  }
+  .t-trade-top {
+    font-size: 15px;
+  }
+  .leader-responsive {
+    display: flex;
+    justify-content: center;
+  }
+
+  .t-trade-last {
+    text-align: center;
+    font-size: 12px;
+  }
+  .trade-table-heading {
+    font-size: 12px;
+  }
+  .data-trade-table {
+    font-size: 12px;
+  }
+  /* .leader-responsive{
+            display: block;
+        } */
+}
+
+@media (max-width: 320px) {
+  .table_over {
+    overflow: auto;
+    overflow-x: scroll;
+  }
+  .t-trade-leader {
+    font-size: 20px;
+  }
+  .t-trade-top {
+    font-size: 12px;
+  }
+}
+
+/* *******************************TimeBomb******************************** */
+.trade_time_bg {
+  background-image: url("../../Assets/Images/trade_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+}
+
+.t-timebomb {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  text-align: center;
+  /* identical to box height, or 39% */
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.t-last-update {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* identical to box height, or 181% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.btn-trade-all {
+  width: 150px;
+  height: 42px;
+  background: #010017;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height */
+  border: none;
+
+  color: #01f7f7;
+}
+.btn-trade-all:hover {
+  width: 150px;
+  height: 42px;
+  background: #01f7f7;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height */
+
+  color: #010017;
+}
+.timebomb-last {
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: right;
+  font-size: 21px;
+  line-height: 35px;
+  /* identical to box height, or 167% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.arrow_bg {
+  width: 35px;
+  height: 35px;
+
+  background: #faff00;
+  border-radius: 50px;
+}
+.txt_bg {
+  width: 142px;
+  height: 35px;
+  background: #faff00;
+  border-radius: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.time-bomb-table {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .t-timebomb {
+    font-size: 45px;
+  }
+  .t-last-update {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .time-btn-responsive {
+    margin-top: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+.trade_faq_margin {
+  margin-top: 35%;
+}
+.t-generalrule {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  /* identical to box height, or 108% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-the-faq {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  /* or 171% */
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .trade_faq_margin {
+    margin-top: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .trade_faq_margin {
+    margin-top: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  .trade_faq_margin {
+    margin-top: 150%;
+  }
+}
+@media (max-width: 375px) {
+  .trade_faq_margin {
+    margin-top: 150%;
+  }
+}
+@media (max-width: 320px) {
+  .trade_faq_margin {
+    margin-top: 180%;
+  }
+}

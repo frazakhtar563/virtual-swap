@@ -1,0 +1,156 @@
+.activity_bg {
+  background-image: url("../../../Assets/Images/activity-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tactivity {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 65px;
+  /* identical to box height, or 81% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-filtered {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.btn-act {
+  width: 118px;
+  height: 40px;
+  background: #1b1a36;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height */
+
+  border: none;
+  color: #ffffff;
+}
+.btn-act:hover {
+  width: 118px;
+  height: 40px;
+  background: #fd0093;
+}
+.btn-ref {
+  width: 118px;
+  height: 40px;
+  background: #01f7f7;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  border: none;
+  color: #010017;
+}
+
+@media (max-width: 425px) {
+  .tactivity {
+    font-size: 40px;
+  }
+  .act-btn-responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btn-ref {
+    margin-top: 10px;
+  }
+  .btn-act,
+  .btn-ref {
+    width: 100%;
+  }
+  .btn-act:hover,
+  .btn-ref {
+    width: 100%;
+  }
+}
+
+.table-act {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.t-coin {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  /* identical to box height */
+  text-align: left !important;
+
+  color: #ffffff;
+}
+.t-coinD {
+  text-align: left !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 12px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.69);
+}
+.t-event {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.t-price {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 17px;
+
+  color: #ffffff;
+}
+.t-from {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 13px;
+  /* or 131% */
+
+  color: #ffffff;
+}
+.t-act-date {
+  font-family: "Poppins";
+  font-style: normal !important;
+  font-size: 13px !important;
+  /* identical to box height, or 131% */
+
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .table-scroll {
+    overflow-x: auto;
+    width: 100%;
+  }
+}

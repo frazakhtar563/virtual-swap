@@ -1,0 +1,61 @@
+.finished_bg {
+  background-image: url("../../../Assets/Images/Finish_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text_ifo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.text_buyNew {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.Moon_card {
+  width: 100%;
+  height: 251px;
+  border-radius: 35px 20px 20px 20px;
+  margin-top: 50px;
+}
+.moon_circle {
+  position: relative;
+  z-index: 1;
+}
+.dropPic {
+  margin-top: -10px;
+}
+.moonPic {
+  width: 100%;
+
+  margin-top: -87px;
+}
+.picture_moon {
+  height: 251px;
+}
+
+@media (max-width: 425px) {
+  .text_ifo {
+    font-size: 30px;
+  }
+  .picture_moon {
+    height: 200px;
+  }
+  .Moon_card {
+    height: auto;
+  }
+  .moonPic {
+    width: 100%;
+  }
+}

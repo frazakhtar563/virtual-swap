@@ -1,0 +1,445 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header_area {
+  background-color: black;
+  background-image: url("../../../Assets/Images/Finish_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text_ifo_value {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.col1_section_para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.btn_how_does_bg {
+  width: 232px;
+  height: 51px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+  margin-left: 0px;
+}
+.btn_how_does {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+}
+.btn_connect_if_bg {
+  width: 190px;
+  height: 44px;
+  background: #faff00;
+  border-radius: 2px 2px 40px 2px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.btn_con_icon_bg {
+  background: #faff00;
+  box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.25);
+  color: black;
+}
+.if_latest_card {
+  width: 353px;
+  height: 401px;
+  background: #010017;
+  border: 1px solid #ffe600;
+  box-shadow: 0px 0px 12px 9px rgba(255, 230, 0, 0.7);
+  border-radius: 117px 20px 20px 20px;
+}
+.text_stake_ifo {
+  margin-top: 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #faff00;
+}
+.text_ifo_flexible {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  color: #ffffff;
+}
+.text_stake_earn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 13px;
+  color: #ffffff;
+  color: black;
+}
+.row2 {
+  background: #010017;
+  border: 1px solid #5a5100;
+  border-radius: 5px;
+}
+.smd {
+  background: #faff00;
+  border-radius: 2px 2px 40px 2px;
+  transform: translateY(-20px);
+}
+
+.buttonp {
+  background: #faff00;
+  border: 1px solid #fd0093;
+  border-radius: 30px;
+  color: black;
+}
+.text-ifo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  /* or 108% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+@media (max-width: 425px) {
+  .text-ifo {
+    font-size: 30px;
+  }
+  .if_latest_card {
+    height: max-content;
+  }
+}
+
+.text-sale {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 49px;
+  /* identical to box height */
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #01f7f7;
+}
+.sale_card {
+  width: 353px;
+  height: 401px;
+  background: #010017;
+  border: 1px solid #ffe600;
+  box-shadow: 0px 0px 12px 9px rgba(255, 230, 0, 0.7);
+  border-radius: 117px 20px 20px 20px;
+}
+.circle-question {
+  margin-top: -20px;
+  margin-left: 270px;
+}
+
+.text_sale_token {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #faff00;
+}
+.text_sale_you {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 13px;
+  color: #ffffff;
+}
+.text_sale_youHave {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: center;
+
+  color: #faff00;
+}
+.sale_link_how {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #01f7f7;
+}
+.sale_card_border {
+  width: 747px;
+  height: 475px;
+  border: 1px solid #01f7f7;
+  border-radius: 20px 20px 117px 20px;
+}
+.btn_ifo_Detail {
+  width: 102px;
+  height: 102px;
+  background: #010017;
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 0px 43px 5px #01f7f7;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 50px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #01f7f7;
+}
+.sale_card2 {
+  width: 324px;
+  height: 387px;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+  background: #030039;
+  border: 1px solid #01f7f7;
+  border-radius: 20px;
+}
+.sale_card3 {
+  width: 324px;
+  height: 377px;
+  background: #030039;
+  border: 1px solid #fd0093;
+  border-radius: 20px;
+  box-shadow: 0px 20px 74px 10px #fd0093;
+}
+
+.text_publicSale {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.text_on_sale {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #faff00;
+}
+.text_sale_value {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 19px;
+
+  color: #ffffff;
+}
+.text_total_sale {
+  margin: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #ffffff;
+}
+.list-unstyled {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 30px;
+}
+.btn_sale_bg {
+  margin-left: 50px;
+  margin-top: -35px;
+  width: 190px;
+  height: 44px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+}
+.btn_sale_icon_bg {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 0px 0px 2px;
+}
+.text_publicSale2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.text_how_to_take {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 49px;
+
+  text-transform: uppercase;
+
+  color: #01f7f7;
+}
+
+@media (max-width: 1024px) {
+  .sale_card {
+    width: 100%;
+    height: auto;
+  }
+  .sale_card_border {
+    width: 100%;
+  }
+  .sale_card2 {
+    width: 264px;
+    height: auto;
+  }
+  .sale_card3 {
+    width: 264px;
+    height: max-content;
+  }
+  .btn_sale_bg {
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sale_card2,
+  .sale_card3 {
+    margin-top: 20px;
+  }
+  .sale_card_border {
+    margin-top: 20px;
+    border: 1px solid #01f7f7;
+    border-radius: 20px 20px 117px 20px;
+    height: 610px;
+  }
+}
+@media (max-width: 425px) {
+  .sale_card2,
+  .sale_card3 {
+    width: 100%;
+    height: auto;
+  }
+  .sale_card {
+    width: auto;
+  }
+  .text_sale_token {
+    margin-top: 50px;
+  }
+  .sale_card_border {
+    margin-top: 20px;
+    border: none !important;
+  }
+  .btn_sale_bg {
+    margin-bottom: 30px !important;
+  }
+}
+
+.how_card1,
+.how_card2,
+.how_card3,
+.how_card4 {
+  width: 269px;
+  height: 280px;
+  background: #030039;
+  border-radius: 20px;
+}
+.how_card1 {
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+}
+.how_card2 {
+  border: 1px solid #fd0093;
+  box-shadow: 0px 20px 74px 10px #fd0093;
+}
+.how_card3 {
+  border: 1px solid #faff00;
+  box-shadow: 0px 20px 74px 10px #faff00;
+}
+.how_card4 {
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+}
+
+.blue_circle {
+  margin-top: -20px;
+}
+
+.text_heading_card1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+.text_para_card1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 14px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.text_heading_card2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+
+  text-transform: uppercase;
+  text-align: left;
+  color: #fd0093;
+}
+.text_heading_card3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #faff00;
+}
+@media (max-width: 1024px) {
+  .how_card1,
+  .how_card2,
+  .how_card3,
+  .how_card4 {
+    width: 100%;
+  }
+  .sale_card_border {
+    height: 600px;
+  }
+  .how_margin {
+    margin-top: 140px !important;
+  }
+  .text_how_to_take {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .how_card1,
+  .how_card2,
+  .how_card3,
+  .how_card4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .how_margin {
+    margin-top: 540px !important;
+  }
+}
+.ifo_btn {
+  background: transparent !important;
+  border: none;
+}

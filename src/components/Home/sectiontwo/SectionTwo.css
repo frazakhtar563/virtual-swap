@@ -1,0 +1,205 @@
+.text_connect_with {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 20px !important;
+  letter-spacing: 1.6em !important;
+  text-transform: uppercase !important;
+  color: var(--ul-clr) !important;
+}
+.text_virtual_bridge {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+
+  color: #00fdee;
+}
+.text-dammy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--ul-clr);
+}
+.picture-bg {
+  width: 506px;
+  height: 528px;
+  background-color: #bb49a2;
+  filter: blur(157px);
+}
+.picture-one {
+  border: red 2px solid;
+  position: absolute;
+  z-index: 100000;
+}
+
+.btn_trade_bg {
+  width: 222px;
+  height: 55px;
+  background: linear-gradient(264.15deg, #ffffff -7.56%, #ffffff 54.65%);
+  border-radius: 2px 2px 40px 2px;
+  border: none;
+  border: 1px solid black;
+}
+.btn_trade_icon_bg {
+  position: relative;
+  left: -8px;
+  width: 53px;
+  height: 55px;
+
+  background: #ffffff;
+  box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px 0px 0px 2px;
+}
+.btn_trade {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px !important;
+
+
+  text-transform: uppercase;
+
+  color: #1d1132;
+}
+.btn_lear_bg {
+  width: 222px;
+  height: 55px;
+  border: 1px solid #00d1ff;
+  border-radius: 2px 2px 40px 2px;
+  background: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+
+  text-transform: uppercase;
+  color: #00fff0;
+}
+.btn_lear_bg:hover{
+  background-color:aqua;
+  color: black;
+}
+/* .hover-button--off {
+
+  animation: rotateAnimation 3s 1s infinite;
+}
+@keyframes rotateAnimation {
+  0% {
+    transform: rotateY(0);
+  }
+  25% {
+    transform: rotateY(90deg);
+  
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotate3d(0);
+  }
+} */
+
+.flipcart {
+  justify-content: center;
+}
+.trade_font{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px !important;
+
+
+  text-transform: uppercase;
+
+  color: #1d1132;
+}
+@media (max-width: 1024px) {
+  .text_connect_with {
+    font-size: 15px;
+    letter-spacing: 1.50em;
+  }
+  .text_virtual_bridge {
+    font-size: 40px !important;
+  }
+  .text-dammy {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionTwo_responsive {
+    display: flex;
+    justify-content: center;
+  }
+  .text_connect_with {
+    text-align: center;
+  }
+  .text_virtual_bridge {
+    text-align: center;
+  }
+  .text-dammy {
+    text-align: center;
+  }
+  .bd {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media(max-width:931px){
+  .text_connect_with{
+    text-align: center;
+  }
+  .sectionTwo_responsive {
+    display: flex;
+    justify-content: center;
+  }
+  .text_connect_with, .text_virtual_bridge, .text-dammy{
+    text-align: center;
+  }
+}
+
+
+@media  screen 
+and (max-width: 475px) 
+
+ {
+  .text_connect_with{
+    font-size: 15px !important;
+    padding: 0% !important;
+    text-align: center;
+    letter-spacing: 0.9rem !important;
+  }
+  .text-dammy{
+    text-align: center;
+    font-size: 12px;
+  }
+  .btn_trade_bg, .btn_lear_bg{
+    width:150px;
+    font-size: 15px;
+    border-radius: 0px;
+    height: 50px;
+  }
+  .btn_trade_icon_bg{
+    display: none;
+  }
+}
+@media(max-width:432px){
+  .text_connect_with{
+    font-size: 11px !important;
+    padding: 0% !important;
+    text-align: center;
+  }
+ 
+}
+.background_two{
+  background-image: var(--section-two);
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover ;
+  /* opacity: 0.5; */
+}

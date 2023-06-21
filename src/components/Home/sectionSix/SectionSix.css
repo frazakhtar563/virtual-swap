@@ -1,0 +1,314 @@
+.text-win {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px !important;
+  text-align: center;
+  letter-spacing: 0.92rem !important;
+  text-transform: uppercase;
+
+  color: #00d1ff;
+}
+.text-prize {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 160px !important;
+  text-align: center;
+  letter-spacing: 0.27em;
+  text-transform: uppercase;
+  color: #fd0093;
+}
+.text-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px !important;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: var(--ul-clr);
+}
+.cardSix-border,
+.cardSix2-border,
+.cardSix3-border {
+  width: 360px;
+  height: 370px;
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  border-radius: 10px 10px 70px 10px;
+  background: var(--bg-new);
+}
+.cardSix-border {
+  border-right: #faff00 8px solid;
+  border-bottom: #faff00 8px solid;
+  border-top: #faff00 1px solid;
+  border-left: #faff00 1px solid;
+}
+.cardSix2-border {
+  border-right: #fd0093 8px solid;
+  border-bottom: #fd0093 8px solid;
+  border-top: #fd0093 1px solid;
+  border-left: #fd0093 1px solid;
+}
+.cardSix3-border{
+  border-right: #00d1ff 8px solid;
+    border-bottom: #00d1ff 8px solid;
+    border-top: #00d1ff 1px solid;
+    border-left: #00d1ff 1px solid;
+}
+.text-prediction,
+.text-lottery {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+}
+.text-dollar,
+.text-prediction {
+  color: #f0d90b;
+}
+.text-lottery,
+.text-dollar-2 {
+  color: #fd0093;
+}
+.text-dollar,
+.text-dollar-2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-million {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.33em;
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+.text-title-bnb,
+.text-title-ticket {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--ul-clr);
+}
+.text-title-prediction {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+.btn_playNow_bg,
+.btn_ticket_bg,
+.btn_bond_bg {
+  width: 180px;
+  height: 55px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  border-radius: 5px 5px 40px 5px;
+  border: none;
+}
+.btn_playNow_bg {
+  box-shadow: 1px 1px 35px 5px #faff00;
+}
+.btn_ticket_bg {
+  box-shadow: 1px 1px 35px 5px #fd0093;
+}
+.btn_bond_bg{
+  box-shadow: 1px 1px 35px 5px #00d1ff;
+}
+.btn_play_icon_bg {
+  position: relative;
+  width: 41px;
+  height: 56px;
+  left: -8px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  box-shadow: 1px 1px 35px 5px rgba(0, 0, 0, 0.47);
+}
+.btn_playnow:hover{
+ color: #fd0093;
+}
+.btn_playnow {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.img_prize{
+  height: 100px;
+  width: 100px;
+}
+@media (max-width: 1024px) {
+  .text-prediction {
+    font-size: 30px;
+  }
+  .text-dollar-2,
+  .text-dollar {
+    font-size: 50px;
+  }
+  .text-million {
+    font-size: 24px;
+  }
+  .text-title-bnb {
+    font-size: 20px;
+  }
+  .text-title-prediction {
+    font-size: 18px;
+  }
+  .text-prize {
+    font-size: 80px !important;
+  }
+  .text-para {
+    font-size: 18px;
+    letter-spacing: 0% !important;
+  }
+  .cardSix-border,
+  .cardSix2-border {
+    width: 100%;
+    height: 550px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-win {
+    font-size: 25px;
+  }
+  .text-para {
+    font-size: 12px;
+  }
+  .cardSix-border,
+  .cardSix2-borderc,
+  .cardSix3-border {
+    width: 100%;
+    height: 750px;
+    margin: 20px;
+  }
+
+  .sectionSix-responsive {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 425px) {
+  .text-win {
+    font-size: 18px;
+  }
+  .cardSix-border,
+  .cardSix2-border,
+  .cardSix3-border {
+    width: 90%;
+    height: 440px;
+  }
+  .cardSix3-border{
+    margin-top: 25px ;
+  }
+  .text-prediction,
+  .text-lottery {
+    font-size: 25px;
+  }
+  .text-million {
+    font-size: 18px;
+  }
+  .text-title-bnb,
+  .text-title-ticket {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .text-title-prediction {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .sectionSix-responsive {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .text-dollar,
+  .text-dollar-2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text-prize {
+    font-size: 50px !important;
+  }
+  .text-win {
+    font-size: 15px !important;
+  }
+  .cardSix-border,
+  .cardSix2-border {
+    width: 90%;
+    /* height: 750px; */
+    margin: 20px;
+  }
+  .text-title-bnb,
+  .text-title-ticket {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .btn_bond_bg{
+    margin-top: 35px !important;
+  }
+}
+
+@media (max-width: 325px) {
+  .text-win {
+    font-size: 12px;
+  }
+  .text-million {
+    padding: 0% !important;
+    text-align: center !important;
+  }
+  .btn_playNow_bg,
+  .btn_ticket_bg {
+    width: 235px;
+  }
+
+  .cardSix-border,
+  .cardSix2-border {
+    width: 90%;
+    height: 550px;
+    margin: 20px;
+    box-shadow: none;
+  }
+
+  .btn_play_icon_bg {
+    display: none !important;
+  }
+  .btn_ticket_bg,
+  .btn_playNow_bg {
+    width: auto;
+  }
+  .text-prediction,
+  .text-lottery {
+    font-size: 20px;
+  }
+}
+
+.sectionSix-overflow {
+  overflow: hidden !important;
+}
+.back_six{
+  background-image: var(--section-six);
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover ;
+}

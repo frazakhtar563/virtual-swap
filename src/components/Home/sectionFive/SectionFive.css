@@ -1,0 +1,123 @@
+.sectionFive-bg {
+  background-image:var(--sectionFive_bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+.text-earn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+
+  color: var( --ul-clr);
+}
+.text-title-earn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: var( --ul-clr);
+}
+.btn_Tbg {
+  width: 190px;
+  height: 51px;
+  background: linear-gradient(264.15deg, #f05d0b -7.56%, #f0d90b 54.65%);
+  border-radius: 2px;
+  border: none !important;
+}
+.btn_Ticon_bg {
+  left: -8px;
+  position: relative;
+  width: 59px;
+  height: 51px;
+  background: #ffb703;
+  box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px 0px 0px 2px;
+}
+
+.btn_trade {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #1d1132;
+}
+.btn-Lmore {
+  width: 166px;
+  height: 51px;
+  left: 379px;
+  top: 3352px;
+  border: var(--border-);
+  border-radius: 2px;
+  background-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: var(--ul-clr);
+}
+
+@media (max-width: 1024px) {
+  .text-earn {
+    font-size: 40px;
+    text-align: center;
+  }
+  .text-title-earn {
+    text-align: center;
+  }
+  .pic_ani {
+    text-align: center;
+  }
+}
+.section-five-overflow {
+  overflow: hidden !important;
+}
+
+@media (max-width: 500px) {
+  .btn_Tbg,
+  .btn-Lmore {
+    width: 140px;
+    height: 50px;
+    font-size: 15px !important;
+  }
+  .btn_Ticon_bg {
+    display: none;
+  }
+  .SectionFive_btn_responsive {
+    margin: 40px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn_Ticon_bg {
+    display: none;
+  }
+  .SectionFive_btn_responsive {
+    margin: 20px !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .btn_Ticon_bg {
+    display: none;
+  }
+  .SectionFive_btn_responsive {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .btn-Lmore {
+    margin-left: 50px !important;
+  }
+}
+@media (max-width: 768px) {
+  .SectionFive_btn_responsive {
+    margin: 140px;
+  }
+  .mobile_center{
+    justify-content: center !important;
+  }
+}

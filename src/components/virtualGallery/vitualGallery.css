@@ -1,0 +1,110 @@
+.text_virtualGallery {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.virtual_bg {
+  background-image: url("../../Assets/Images/Finish_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text_virtual_explore {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  text-align: center;
+  color: #ffffff;
+}
+.btn_explore {
+  width: 190px;
+  height: 44px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*  */
+.virtual-card-1,
+.virtual-card-2,
+.virtual-card-3 {
+  width: 359px;
+  height: 423px;
+  border-radius: 35px 20px 20px 20px;
+}
+
+.virtual-card-1 {
+  background: #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+}
+.virtual-card-2 {
+  background: #fd0093;
+  box-shadow: 0px 20px 74px 10px #fd0093;
+}
+.virtual-card-3 {
+  background: #faff00;
+  box-shadow: 0px 20px 74px 10px #faff00;
+}
+.virtual-innerCard,
+.virtual-innerCard2,
+.virtual-innerCard3 {
+  width: 359px;
+
+  height: 426px;
+  background: #030039;
+  border-radius: 90px 20px 20px 20px;
+}
+.virtual-innerCard {
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+}
+.virtual-innerCard2 {
+  box-shadow: 0px 20px 74px 10px #fd0093;
+}
+.virtual-innerCard3 {
+  box-shadow: 0px 20px 74px 10px #faff00;
+}
+
+@media (max-width: 1024px) {
+  .virtual-card-1,
+  .virtual-card-2,
+  .virtual-card-3,
+  .virtual-innerCard,
+  .virtual-innerCard2,
+  .virtual-innerCard3 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .virtual-card-1,
+  .virtual-card-2,
+  .virtual-card-3,
+  .virtual-innerCard,
+  .virtual-innerCard2,
+  .virtual-innerCard3 {
+    margin-top: 100px;
+    height: auto;
+  }
+}
+@media (max-width: 425px) {
+  .virtual-card-1,
+  .virtual-card-2,
+  .virtual-card-3 {
+    margin-top: 40px;
+  }
+  .text_virtualGallery {
+    font-size: 40px;
+  }
+  .text_virtual_explore {
+    font-size: 12px;
+  }
+}
